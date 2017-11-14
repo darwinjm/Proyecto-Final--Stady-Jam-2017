@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.proyecto_final_one.CalcuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/cnumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="0"
+            android:inputType="number"
+            android:textSize="@dimen/calc1"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/resul1"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:hint="0"
+                        android:textSize="@dimen/cacl2"/>
+
+                    <TextView
+                        android:id="@+id/resul2"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:hint="0"
+                        android:textSize="@dimen/cacl2"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/c"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:hint="0"
+                        android:textSize="@dimen/cacl2"/>
+
+                    <TextView
+                        android:id="@+id/cc"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:hint="0"
+                        android:textSize="@dimen/cacl2"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:collapseColumns="*"
+            android:shrinkColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btiva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="iva"
+                    android:text="Iva"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="it"
+                    android:text="IT"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btuei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="uei"
+                    android:text="UEI"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btrciva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="rciva"
+                    android:text="RC-IVA"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="ice"
+                    android:text="IVME"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/bttgb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="tgb"
+                    android:text="TGB"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btisae"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="isae"
+                    android:text="ISAE"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btiehd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="iehe"
+                    android:text="IEHE"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btidh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="idh"
+                    android:text="IDH"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btitf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="itf"
+                    android:text="ITF"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btij"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="ij"
+                    android:text="IJ"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+
+                <Button
+                    android:id="@+id/btipj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="ipj"
+                    android:text="IPJ"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btborrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="borrar"
+                    android:text="@string/borrar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+                <Button
+                    android:id="@+id/ircalculadora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botones"
+                    android:onClick="Abrircalcuadora"
+                    android:text="@string/calculadora"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="@dimen/calcboton" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageButton
+            android:id="@+id/recuperado"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="fill_vertical"
+            android:onClick="recuperar"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

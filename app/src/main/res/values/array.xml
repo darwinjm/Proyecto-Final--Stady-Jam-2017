@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+//array de la lista personalizda
+
+    <string-array name="nombre">
+        <item>@string/main.con1.titulo</item>
+        <item>@string/main.con2.titulo</item>
+        <item>@string/main.con3.titulo</item>
+        <item>@string/main.con4.titulo</item>
+        <item>@string/main.con5.titulo</item>
+        <item>@string/main.con6.titulo</item>
+        <item>@string/main.con7.titulo</item>
+        <item>@string/main.con8.titulo</item>
+        <item>@string/main.con9.titulo</item>
+        <item>@string/main.con10.titulo</item>
+    </string-array>
+
+    <string-array name="tipos">
+        <item>@string/main.con1.subtitulo</item>
+        <item>@string/main.con2.subtitulo</item>
+        <item>@string/main.con3.subtitulo</item>
+        <item>@string/main.con4.subtitulo</item>
+        <item>@string/main.con7.subtitulo</item>
+        <item>@string/main.con6.subtitulo</item>
+        <item>@string/main.con7.subtitulo</item>
+        <item>@string/main.con8.subtitulo</item>
+        <item>@string/main.con9.subtitulo</item>
+        <item>@string/main.con10.subtitulo</item>
+    </string-array>
+
+
+    <string-array name="concepto">
+        <item>@string/main.con1.concepto</item>
+        <item>@string/main.con2.concepto</item>
+        <item>@string/main.con3.concepto</item>
+        <item>@string/main.con4.concepto</item>
+        <item>@string/main.con5.concepto</item>
+        <item>@string/main.con6.concepto</item>
+        <item>@string/main.con7.concepto</item>
+        <item>@string/main.con8.concepto</item>
+        <item>@string/main.con9.concepto</item>
+        <item>@string/main.con10.concepto</item>
+
+    </string-array>
+</resources>

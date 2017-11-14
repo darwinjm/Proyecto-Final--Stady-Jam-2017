@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000"
+        android:alpha="0.7">
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/one"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1.32">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/primero"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icono2"
+                android:onClick="AbrirConceptos"
+                android:layout_marginRight="45dp"
+                android:scaleType="fitCenter"
+                android:elevation="2dp"
+                />
+            <ImageView
+                android:id="@+id/segundo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icono1"
+                android:onClick="AbrirCalc"
+                android:elevation="2dp"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvuno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"
+                android:text="@string/conceptos"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/menu1" />
+
+            <TextView
+            android:id="@+id/tvdos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:text="@string/calc"
+            android:textSize="@dimen/menu1"
+            android:textColor="@color/primaryTextColor"
+            />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/internet"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="2dp"
+            android:onClick="internet"
+            android:scaleType="fitCenter"
+            android:src="@drawable/link"/>
+
+
+        <ImageView
+            android:id="@+id/block"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="@dimen/espacion"
+            android:elevation="2dp"
+            android:onClick="block"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tvtres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Buscar"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/menu1"
+                android:layout_marginRight="70dp"
+                />
+            <TextView
+                android:id="@+id/tvcuatro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Sitio"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/menu1"
+                />
+        </TableRow>
+    </LinearLayout>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/contactame"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/foto"
+        android:onClick="AbrirContactame"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"
+        android:scaleType="fitCenter"
+        android:elevation="2dp"/>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    //dimencines del menu
+    <dimen name="menu1">17sp</dimen>
+    <dimen name="espacion">50dp</dimen>
+
+
+    //dimencines del item
+    <dimen name="titulo1">30sp</dimen>
+    <dimen name="subtitulo">20sp</dimen>
+    <dimen name="margen">10sp</dimen>
+
+
+
+
+
+
+    //dimenciones de splashscreen
+    <dimen name="sub">15sp</dimen>
+    <dimen name="bienvenido">50sp</dimen>
+    <dimen name="Appcontac">40sp</dimen>
+
+
+    //dimenciones de los Tv y Botton de la calculadora
+    <dimen name="calc1">35sp</dimen>
+    <dimen name="cacl2">20sp</dimen>
+    <dimen name="calcboton">20sp</dimen>
+    <dimen name="calc">15sp</dimen>
+
+
+
+
+
+    // dimencion para las letras del activity internet
+    <dimen name="letradescarga">25dp</dimen>
+
+
+
+
+
+    //dimenciones del activity about
+    <dimen name="textofin">12dp</dimen>
+    <dimen name="acer">20dp</dimen>
+
+
+
+    // dimencion del activity detalles tutolos, detalle, subtitulo
+    <dimen name="tvtitulo">30sp</dimen>
+    <dimen name="tvdetalle">17sp</dimen>
+    <dimen name="tvsubtitulo">25sp</dimen>
+</resources>

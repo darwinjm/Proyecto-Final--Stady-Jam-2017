@@ -1,0 +1,232 @@
+<resources>
+
+    // datos mostrados en la aplicacion
+    <string name="app_name">APPContac</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="conceptos">Conceptos</string>
+    <string name="calc">Calculadora</string>
+    <string name="contacto">Contacto</string>
+    <string name="Buscar">Busquedas</string>
+    <string name="Sitio">Sitio Web</string>
+    <string name="descargas">Posibles libros que te Ayuden \n(descargar)</string>
+
+
+// botones de la calculadora
+
+    <string name="borrar">Borrar</string>
+    <string name="calculadora">Calc</string>
+
+
+    //conceptos de about
+    <string name="iva">
+        "En el repositorio,/n"+"
+        En el repositorio, las distintas áreas,\n"+" campos o lenguajes de programación que se aprende en la"
+     </string>
+
+    <string name="uno">Esta aplicacion fue hecha para el uso necesario en la area de contaduria</string>
+    <string name="dos">La iniciativa de la aplicacion fue cuando me di\n
+        cuenta que era muy complicado tener la informacon correcta sobre contaduria.</string>
+<string name="tres">Desarrollado por:\nDarwin Jesus Montes Chume</string>
+
+
+
+
+// texto del activity descargar/internet
+
+    <string name="libro1">Contaduria Generales</string>
+    <string name="libro2">Conceptos Basicos</string>
+    <string name="libro3">Contaduria Basica</string>
+    <string name="libro4">Contaduria Intermedia</string>
+    <string name="libro5">Contaduria Avanzada</string>
+    <string name="libro6">Manejo de Excel</string>
+    <string name="libro7">Manejo de Programas</string>
+    <string name="libro8">ABC Contaduria</string>
+    <string name="libro9">Manejo de Formulas</string>
+    <string name="libro10">Tactilografia</string>
+    <string name="face">grupo de \nFacebook</string>
+
+
+
+
+    //datos de la lista personalizada
+
+    <string name="main.con1.titulo">I.T.</string>
+    <string name="main.con2.titulo">IUE</string>
+    <string name="main.con3.titulo">RC-IVA</string>
+    <string name="main.con4.titulo">ICE</string>
+    <string name="main.con5.titulo">TGB</string>
+    <string name="main.con6.titulo">IEHD</string>
+    <string name="main.con7.titulo">IDH</string>
+    <string name="main.con8.titulo">IJ</string>
+    <string name="main.con9.titulo">IPJ</string>
+    <string name="main.con10.titulo">IVME</string>
+
+
+
+    <string name="main.con1.subtitulo">Impuestos a las Transacciones</string>
+    <string name="main.con2.subtitulo">Impuestos sobre las Utilidades de la Empresa</string>
+    <string name="main.con3.subtitulo">Regimen Complementario al Impuesto al Valor Agregado</string>
+    <string name="main.con4.subtitulo">Impuestos a los Consumos Especificos</string>
+    <string name="main.con5.subtitulo">Transaccion Gratuita de Bienes</string>
+    <string name="main.con6.subtitulo">Impuestos Especiales a los Hidrocarburos y sus Derivados</string>
+    <string name="main.con7.subtitulo">Impuestos Directos a los Hidrocarburos</string>
+    <string name="main.con8.subtitulo">Impuestos al Juego</string>
+    <string name="main.con9.subtitulo">Impuestos a la participación en Juegos</string>
+    <string name="main.con10.subtitulo">Impuestos a la Venta de Moneda Extranjera</string>
+
+
+
+//contenido detalle de las listas
+
+    <string name="main.con1.concepto">
+Impuestos a las Transacciones\n
+•¿Qué Grava?\n
+Ingreso bruto obtenido de cualquier actividad lucrativa o no, incleye:\n
+Comercio\n
+Industri\n
+Profesión\n
+oficio
+•¿Quienes no Pagan?
+Trabajo personal en relación de dependencias
+Desempeño de cargos Publicos
+Exportaciones\n
+Venta de libros, diarios, publicaciones informativas, periodicos y revistas.
+Establecimientos educativos privados de enseñanza con plan oficial.
+Acividades cultirales de artistas nacionales en escenarios estatales o municipales.
+•¿Cúal es su Alícuota?\n
+3%\n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 400 - 410
+    </string>
+    <string name="main.con2.concepto">
+Impuestos sobre las Utilidades de la Empresa\n
+•¿Qué Grava?\n
+Empresa publicas, privadas, mixtas, incluyen las unipersonales.\n
+•¿Quienes no Pagan?\n
+Gobierno Nacional\n
+Universidades Publicas
+Asociaciones, fundaciones e institutos.\n
+•¿Cúal es su Alícuota?\n
+25%\n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 500 - 520 - 605 - 560 - 501
+    </string>
+    <string name="main.con3.concepto">
+Regimen Complementario al Impuesto al Valor Agregado\n
+•¿Qué Grava?\n
+Conreibuyentes Directos, Alquileres y sub alquileres de inmuebles o muebles
+Sueldos del pesonal contratad localmente.
+Ingresos de personas contratadas por el sector publico.
+Sueldo y salarios de los dependientes.\n
+•¿Quienes no Pagan?\n
+Todas las personas naturales que obtengan ingresos de actividades\n
+•¿Cúal es su Alícuota?\n
+13%\n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 610 - 110
+    </string>
+    <string name="main.con4.concepto">
+Impuestos a los Consumos Especificos\n
+•¿Qué Grava?\n
+Ventas en el mercado interno e importacines definitivas de bienes para consumo final.
+Cigarros, tabacos, bebidas refrescantes, bebidas alcohólicas.\n
+•¿Quienes Pagan?\n
+Los fabricantes
+Los que comercialicen distribuyan al por mayor\n
+•¿Quienes no Pagan?\n
+Los distribuidores al por menor
+Las exportaciones\n
+•¿Cúal es su Alícuota?\n
+Actualizado Amualmente\n
+¿Que Formulario se debe utilizar?\n
+Form.\n 650 - 651 - 630 - 185\n
+    </string>
+    <string name="main.con5.concepto">
+
+•¿Qué Grava?\n
+Transacciones gratuitas de bienes registrables.\n•¿Quienes no Pagan?
+Trabajo personal en relación de dependencias
+Desempeño de cargos Publicos
+Exportaciones\n
+Venta de libros, diarios, publicaciones informativas, periodicos y revistas.
+Establecimientos educativos privados de enseñanza con plan oficial.
+Acividades cultirales de artistas nacionales en escenarios estatales o municipales.
+•¿Cúal es su Alícuota?\n
+3%\n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 400 - 410
+    </string>
+    <string name="main.con6.concepto">
+Impuestos Especiales a los Hidrocarburos y sus Derivados\n
+¿Qué Grava?\n
+La importacion o produccion interna de hidrocarburos para la comercialización en el mercado interno.\n
+¿Quienes Pagan?\n
+Personas ue comercialicen internamente hibricarburos o sus rerivados.\n
+¿Cúal es su Alícuota?\n
+Taza especifica por litro\n
+¿Que Formulario se debe utilizar?\n
+Form.\n 920
+    </string>
+    <string name="main.con7.concepto">
+        Impuestos Directos a los Hidrocarburos\n
+•¿Qué Grava?
+Produccion de hidrocarburos en todo el territorio nacional.\n
+•¿Quienes Pagan?\n
+Toda persona natural o juridica, pubica que produsca hidrocarburos.\n
+•¿Quienes no Pagan?\n
+Los distribuidores al por menor
+Las exportaciones\n
+•¿Cúal es su Alícuota?\n
+Actualizado Amualmente\n
+¿Que Formulario se debe utilizar?\n
+Form.\n 650 - 651 - 630 - 185\n
+
+    </string>
+    <string name="main.con8.concepto">
+Impuestos al Juego\n
+•¿Qué Grava?\n
+Juegos de azar y sorteos.\n
+promociones empresariales\n
+•¿Quienes Pagan?\n
+        •¿Quienes no Pagan?
+Trabajo personal en relación de dependencias
+Desempeño de cargos Publicos
+Exportaciones\n
+Venta de libros, diarios, publicaciones informativas, periodicos y revistas.
+Establecimientos educativos privados de enseñanza con plan oficial.
+Acividades cultirales de artistas nacionales en escenarios estatales o municipales.
+•¿Cúal es su Alícuota?\n
+3%\n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 400 - 410
+
+    </string>
+    <string name="main.con9.concepto">
+        Impuestos a la participación en Juegos\n
+•¿Qué Grava?\n
+Particion de personas naturales en juegos de azar y sorteo\n
+•¿Quienes Pagan?\n
+Personas naturales que no participen del juego de azr y sorteo
+Participantes que compran Fichas, tickets, boletos, rifas y otros.\n
+•¿Quienes no Pagan?\n
+Promociones empresariales, rifas con fines beneficos juegos o competicones de pasatiempos y recreos sin fines lucrativos.\n
+•¿Cúal es su Alícuota?\n
+15%\n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 771
+    </string>
+    <string name="main.con10.concepto">
+      Impuestos a la Venta de Moneda Extranjera\n
+•¿Qué Grava?\n
+La venta de moneda extranjera en territorio boliviano\n
+•¿Quienes Pagan?\n
+Entidades financieras bancarios y no bancarios
+Las casas ed cambio.\n
+•¿Quienes no Pagan?\n
+La venta de Moneda extrangera relizada por el BCB\n
+•¿Cúal es su Alícuota?\n
+0.70% \n
+•¿Que Formulario se debe utilizar?\n
+Form.\n 779
+    </string>
+</resources>
