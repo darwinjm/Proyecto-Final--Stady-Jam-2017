@@ -104,8 +104,8 @@ En este proyecto de utilizáron los siguientes componentes tanto en el `diseño`
 **`Funcionalidad:`**
 * SoundPlayer, para reproducri lis efectos.
 * CustomAdapter, para la manipulacion de listas.
-* Animation, para insertar las animaciones.
-.
+* Enlaces, para paginas web y redes Sociales.
+* Intent,para realizar un dialogo con el usuario y aplicacion.
 .
 .
 
