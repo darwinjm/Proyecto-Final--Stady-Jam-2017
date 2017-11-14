@@ -48,7 +48,7 @@ Luego de ello dentro de Android Studio:
 
 Corrida previa
 ---
-Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
+Aca capturas de pantallas las cuales nos dan una idea de como se ve la aplicacion.
 <div align="center">
     <center>
         <table border="0">
@@ -73,6 +73,12 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
                                                 <tr>
                                                                 <td><img src="/img/cinco.jpg" width="300"></td>
                                                             </tr>
+                                                             <tr>
+                                                               <td><img src="/img/seis.jpg" width="300"></td>
+                                                              </tr>
+                                                  <tr>
+                                                             <td><img src="/img/siete.jpg" width="300"></td>
+                                                              </tr>
             <tr>
                 <td> </td>
             </tr>
