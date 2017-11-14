@@ -56,8 +56,23 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
                 <td> </td>
             </tr>
             <tr>
-                <td><img src="/img/im.gif" width="300"></td>
+                <td><img src="/img/uno.jpg" width="300"></td>
             </tr>
+            <tr>
+                            <td><img src="/img/uno.jpg" width="300"></td>
+            </tr>
+            <tr>
+                            <td><img src="/img/dos.jpg" width="300"></td>
+                        </tr>
+                        <tr>
+                                        <td><img src="/img/tres.jpg" width="300"></td>
+                                    </tr>
+                                    <tr>
+                                                    <td><img src="/img/cuatro.jpg" width="300"></td>
+                                                </tr>
+                                                <tr>
+                                                                <td><img src="/img/cinco.jpg" width="300"></td>
+                                                            </tr>
             <tr>
                 <td> </td>
             </tr>
@@ -75,7 +90,7 @@ En este proyecto de utilizáron los siguientes componentes tanto en el `diseño`
 * ListVIew, para el contener de los itemes.
 * ImageView, para las imagenes de las canciones, y los controles play y stop.
 * EditTexts, para mostrar los titulos y la duracion de las canciones.
-* Translate y Scale, para las animaciones de la SplashScreen.
+* Scale, para las animaciones de la SplashScreen.
 * Intents Implicitos y Explicitos en la aplicacion.
 .
 .
@@ -97,4 +112,4 @@ Contactos
 darwinetmontes@gmail.com<br>
 Telf. +591 76280671<br>
 La Paz - Bolivia<br>
-[Facebook](https://www.facebook.com/Darwin Montes)
+[Facebook](https://www.facebook.com/DarwinMontes)
