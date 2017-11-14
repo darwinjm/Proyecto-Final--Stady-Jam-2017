@@ -59,8 +59,7 @@ Aca capturas de pantallas las cuales nos dan una idea de como se ve la aplicacio
                 <td><img src="/img/uno.jpg" width="300"></td>
             </tr>
             <tr>
-                            <td><img src="/img/uno.jpg" width="300"></td>
-            </tr>
+
             <tr>
                             <td><img src="/img/dos.jpg" width="300"></td>
                         </tr>
